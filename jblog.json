@@ -1,0 +1,12 @@
+{
+    "content" : {
+	"maxArticles" : 10,
+	"articles": [
+	    {
+		"file": "articles/hello.html",
+		"created": "2013-02-07",
+		"modified": "2013-03-07"
+	    }
+	]
+    }
+}
