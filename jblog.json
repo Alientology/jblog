@@ -1,12 +1,18 @@
 {
-    "content" : {
-	"maxArticles" : 10,
-	"articles": [
-	    {
-		"file": "articles/hello.html",
-		"created": "2013-02-07",
-		"modified": "2013-03-07"
-	    }
-	]
-    }
+    "maxDisplayArticles" : 10,
+    "articledir": "./articles/",
+    "articles": [
+        {
+            "file": "./articles/hello.html",
+            "atime": "2013-07-03T21:10:21.000Z",
+            "mtime": "2013-07-03T21:09:56.000Z",
+            "ctime": "2013-07-03T21:10:13.000Z"
+        },
+        {
+            "file": "./articles/world.html",
+            "atime": "2013-07-03T21:07:29.000Z",
+            "mtime": "2013-07-03T21:09:56.000Z",
+            "ctime": "2013-07-03T21:10:13.000Z"
+        }
+    ]
 }

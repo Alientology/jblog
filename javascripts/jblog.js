@@ -1,10 +1,9 @@
 $(function(){
     var maxDisplay = 10;
-    
+
     $.getJSON("jblog.json",function(blog){
-	var articles = blog.content.articles;
-	for( var i = 0; articles.length > i && blog.content.maxArticles > i; i++ ){
-	    $.get( blog.content.articles[i].file, function(d) {
+	for( var i = 0; blog.articles.length >= i && blog.maxDisplayArticles > i; i++ ){
+	    $.get( blog.articles[i].file, function(d) {
 		$("#content").html( $("#content").html()+d);
 	    });
 	}
