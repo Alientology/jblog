@@ -7,14 +7,14 @@ $(function(){
 		async : false,
 		url : blog.articles[i].file,
 	    }).responseText;
-
+	    
 	    $("#content").append(
 		$("<div></div>").append(article)
 	    );
 	}
 	
     }).fail(function(err){
-	alert("Error loading content.");
+	$("content").append("Error loading content.");
     });;
 
 });
